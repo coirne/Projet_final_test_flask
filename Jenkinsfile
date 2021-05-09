@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('SCM') {
         steps {
-            git branch: 'main', url: 'https://github.com/coirne/PROJET_FINAL.git'
+            git branch: 'main', url: 'https://github.com/coirne/Projet_final_test_flask.git'
               }
         }
         
